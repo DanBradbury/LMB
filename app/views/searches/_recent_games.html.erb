@@ -1,0 +1,12 @@
+<table class="table">
+  <% @recent_games.each do |g| %>
+      <% if g.raw_stats.win %>
+          <tr class="success">
+      <% else %>
+          <tr class="danger">
+      <% end %>
+      <td><%= Time.at(g.created_at / 1000).strftime("%F") %></td>
+      <td><%= g.mode %>, <%= g.sub_type %></td>
+      </tr>
+  <% end %>
+</table>

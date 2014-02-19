@@ -1,13 +1,2 @@
 Summoner Name: <%= @summoner.name %> | Current League: <%= @highest %>
-<table class="table">
-  <% @recent_games.each do |g| %>
-      <tr>
-      <% if g.raw_stats.win %>
-        <td class="success"><%= g.mode %>, <%= g.sub_type %></td>
-    <% else %>
-        <td class="danger"><%= g.mode %>, <%= g.sub_type %></td>
-    <% end %>
-      </tr>
-
-<% end %>
-</table>
+<%= render "recent_games" %>
