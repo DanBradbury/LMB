@@ -20,6 +20,7 @@ class SearchesController < ApplicationController
       end
     end
     @highest = divisions.invert[highest]
+    @review = Review.new
 
     logger.info "recent games: #{@recent_games.inspect}"
     render 'searches/results'

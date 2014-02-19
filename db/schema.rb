@@ -11,7 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140219060726) do
+ActiveRecord::Schema.define(version: 20140219084910) do
+
+  create_table "reviews", force: true do |t|
+    t.text    "description"
+    t.integer "player_id"
+  end
 
   create_table "searches", force: true do |t|
     t.string "name"

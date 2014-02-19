@@ -3,4 +3,5 @@ Pickup::Application.routes.draw do
   get '/results', to: 'searches#results'
   resources :searches
   get '/lookup', to: 'pages#lookup'
+  resources :reviews
 end
