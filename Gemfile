@@ -5,10 +5,16 @@ gem 'rails', '4.0.0'
 
 # Custom stuff
 gem 'multi_json', '1.8.4'
-gem 'lol_client', :git => 'https://github.com/mhuggins/lol_client.git'
+gem 'lol_client', :path => './vendor/lol_client'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use sqlite3 as the database for Active Record in Development and testing
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

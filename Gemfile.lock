@@ -1,6 +1,5 @@
-GIT
-  remote: https://github.com/mhuggins/lol_client.git
-  revision: 7d2c4eaefc42b38ffaa24c5bb9728d67841af84e
+PATH
+  remote: ./vendor/lol_client
   specs:
     lol_client (0.0.1)
       representable
@@ -63,6 +62,7 @@ GEM
     multi_json (1.8.4)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
+    pg (0.17.0)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -129,6 +129,7 @@ DEPENDENCIES
   jquery-rails
   lol_client!
   multi_json (= 1.8.4)
+  pg
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
