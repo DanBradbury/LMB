@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+ruby '2.0.0'
+gem 'rails', :git => 'https://github.com/rails/rails.git'
+gem 'multi_json', '1.8.4'
+gem 'lol_client', :git => 'https://github.com/mhuggins/lol_client.git'
