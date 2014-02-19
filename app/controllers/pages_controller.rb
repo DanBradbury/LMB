@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   end
 
   def lookup
-    init_client
-    render :text => 'ok'
+    @new_search = Search.new
+    render 'pages/lookup'
   end
 end

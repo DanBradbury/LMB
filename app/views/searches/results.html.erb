@@ -1,0 +1,7 @@
+Summoner Name: <%= @summoner.name %>
+<ul>
+  <% @recent_games.each do |g| %>
+    <li><%= g.mode %></li>
+  <% end %>
+</ul>
+

@@ -46,3 +46,2431 @@ Processing by PagesController#lookup as HTML
 #<LolClient:0x007fc7bc5e2050>
   Rendered text template (0.0ms)
 Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:29:04 -0800
+Processing by PagesController#lookup as HTML
+Completed 500 Internal Server Error in 51ms
+
+ActionView::MissingTemplate (Missing template /pages with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.2ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:29:16 -0800
+Processing by PagesController#lookup as HTML
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template pages/lookup with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:29:17 -0800
+Processing by PagesController#lookup as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template pages/lookup with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:29:18 -0800
+Processing by PagesController#lookup as HTML
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template pages/lookup with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:30:42 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.haml within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Words):
+    1: %strong= Words
+  app/views/pages/lookup.html.haml:1:in `_app_views_pages_lookup_html_haml___301783562305996357_70152887865440'
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.5ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:31:01 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 715ms (Views: 714.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 21:31:02 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 21:31:02 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 21:31:02 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 21:31:02 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 21:31:02 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:34:30 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 21:34:30 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 21:34:30 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 21:34:30 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 21:34:30 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 21:34:30 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:37:19 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 21:37:19 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 21:37:19 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 21:37:19 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 21:37:19 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 21:37:19 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:38:08 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 21:38:08 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 21:38:08 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 21:38:08 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 21:38:08 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 21:38:08 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:55:22 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (undefined local variable or method `new_searches_path' for #<#<Class:0x007f9b7c030060>:0x007f9b7c0917c0>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, url: new_searches_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152889215320'
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:55:39 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `new_searches_path' for #<#<Class:0x007f9b7bed3280>:0x007f9b7bed2308>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, url: new_searches_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152889215320'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:55:41 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined local variable or method `new_searches_path' for #<#<Class:0x007f9b7bed3280>:0x007f9b7ace89f8>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, url: new_searches_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152889215320'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (42.2ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:55:53 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `new_searches_path' for #<#<Class:0x007f9b7bed3280>:0x007f9b7b164fb8>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => new_searches_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152880928800'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:55:55 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined local variable or method `new_searches_path' for #<#<Class:0x007f9b7bed3280>:0x007f9b7bed8f50>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => new_searches_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152880928800'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:55:56 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined local variable or method `new_searches_path' for #<#<Class:0x007f9b7bed3280>:0x007f9b7acfbc38>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => new_searches_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152880928800'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (35.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:56:02 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined local variable or method `new_search_path' for #<#<Class:0x007f9b7bed3280>:0x007f9b7ab1cbb0>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => new_search_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152884832600'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:56:03 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `new_search_path' for #<#<Class:0x007f9b7bed3280>:0x007f9b7bea1988>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => new_search_path, :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152884832600'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:56:12 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7bed3280>:0x007f9b7acc29b0>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => '/searches/new', :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152878425000'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:56:13 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (11.4ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7bed3280>:0x007f9b7aaf2e50>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => '/searches/new', :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152878425000'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:58:29 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ab5be28>:0x007f9b7ab5b018>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => 'searches/new', :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877687960'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:58:30 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ab5be28>:0x007f9b7ad498e8>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => 'searches/new', :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877687960'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:58:31 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ab5be28>:0x007f9b7bb908e8>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s, :url => 'searches/new', :method => :post do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877687960'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:59:00 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ab5be28>:0x007f9b7ab9a010>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877818660'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.7ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 21:59:01 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ab5be28>:0x007f9b7ad8b9f0>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877818660'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:03:08 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7bc9baa8>:0x007f9b7bca0788>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877818660'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:03:43 -0800
+Processing by PagesController#lookup as HTML
+Completed 500 Internal Server Error in 4ms
+
+ActiveRecord::StatementInvalid (Could not find table 'searches'):
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:03:45 -0800
+Processing by PagesController#lookup as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'searches'):
+  app/controllers/pages_controller.rb:8:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:08:34 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3979302680724675296__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (35.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSearch (20140219060726)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "searches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140219060726"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:08:46 -0800
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7bc51228>:0x007f9b7bc58fc8>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877818660'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:09:46 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ac7a7f0>:0x007f9b7ac798a0>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877818660'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:09:47 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (40.4ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ac7a7f0>:0x007f9b7afbb040>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877818660'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:11:15 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x007f9b7ac7a7f0>:0x007f9b7ab2c650>):
+    1: <h1>Lookup</h1>
+    2: <%= simple_form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152877818660'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:11:55 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `searches_path' for #<#<Class:0x007f9b7ac7a7f0>:0x007f9b7ac50860>):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s do |f| %>
+    3:     <%= f.button :submit %>
+    4: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152878217060'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:12:17 -0800
+
+ArgumentError (missing :controller):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:12:19 -0800
+
+ActionController::RoutingError (No route matches [GET] "/lookup"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.6ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:13:23 -0800
+
+NoMethodError (undefined method `resouces' for #<ActionDispatch::Routing::Mapper:0x007f9b7bdc3480>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:13:37 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:13:37 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:13:37 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:13:37 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:13:37 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:13:37 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:14:09 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `name' for #<Search id: nil>):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:3:in `block in _app_views_pages_lookup_html_erb__696043011830543731_70152879101220'
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb__696043011830543731_70152879101220'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "searches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140219060726')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:18:14 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionView::Template::Error (undefined method `name' for #<Search id: nil>):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:3:in `block in _app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:18:15 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `name' for #<Search id: nil>):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:3:in `block in _app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:18:15 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `name' for #<Search id: nil>):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:3:in `block in _app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:18:44 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `name' for #<Search id: nil>):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:3:in `block in _app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb___180781185802876894_70238342133460'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+  [1m[36m (3.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSearch (20140219060726)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "searches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140219060726"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:19:19 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:19:19 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:19:19 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:19:19 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:19:19 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:19:19 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:19:39 -0800
+
+AbstractController::ActionNotFound (The action 'create' could not be found for SearchesController):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3372721605927241521__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:21:52 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"pages"}):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s, url: {action: "search"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb___180781185802876894_70238342217300'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:22:48 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"create", :controller=>"pages"}):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @s, url: {action: "create"} do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb___180781185802876894_70238321159400'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:23:25 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:23:25 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:25 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:25 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:25 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:25 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:23:27 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/pages/lookup
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/lookup" for 127.0.0.1 at 2014-02-18 22:23:27 -0800
+
+ActionController::RoutingError (No route matches [GET] "/pages/lookup"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.0ms)
+
+
+Started GET "/pages/lookup" for 127.0.0.1 at 2014-02-18 22:23:37 -0800
+
+ActionController::RoutingError (No route matches [GET] "/pages/lookup"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.9ms)
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:23:40 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:23:40 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:23:40 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:40 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:40 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:40 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:40 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:23:41 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:23:41 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:23:41 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:41 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:23:41 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:25:39 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:25:39 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:39 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:39 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:39 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:25:40 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:25:40 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:40 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:40 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:40 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:40 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:25:41 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:25:41 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:25:41 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:41 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:41 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:25:42 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:25:42 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:25:42 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:42 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:42 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:42 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:42 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:25:43 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:25:43 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:25:43 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:43 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:43 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:43 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:25:43 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:26:06 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:26:06 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:06 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:06 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:06 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:06 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:26:07 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:26:07 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:07 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:07 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:07 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:07 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:26:08 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:26:08 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:26:09 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:09 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:09 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:09 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:09 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:26:10 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:26:10 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:26:10 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:10 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:10 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:10 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:10 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:26:29 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 14ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:26:29 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:29 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:29 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:29 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:29 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:26:31 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template /lookup with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:8:in `create'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:26:41 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/lookup
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:26:41 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:41 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:26:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:41 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:26:41 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:31:00 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:31:00 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:31:00 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:31:00 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:31:00 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:31:00 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:31:01 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:7:in `create'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:31:50 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:7:in `create'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/searches/results" for 127.0.0.1 at 2014-02-18 22:32:29 -0800
+
+AbstractController::ActionNotFound (The action 'show' could not be found for SearchesController):
+  actionpack (4.0.0) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3372721605927241521__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:33:12 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results, application/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+):
+  actionpack (4.0.0) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.0) lib/action_view/lookup_context.rb:115:in `find'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__987866638761019711__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3372721605927241521__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:33:16 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results, application/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+):
+  actionpack (4.0.0) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.0) lib/action_view/lookup_context.rb:115:in `find'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__987866638761019711__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3372721605927241521__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/dan/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:33:33 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:33:34 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 3ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:04 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 54ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.2ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:06 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:21 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:23 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:24 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:32 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 52ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.1ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:33 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:34 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:34:35 -0800
+Processing by SearchesController#results as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template searches/results with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/dan/Documents/Ruby/revived-lassie/app/views"
+  * "/Users/dan/Documents/Ruby/revived-lassie"
+  * "/"
+):
+  app/controllers/searches_controller.rb:11:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:35:45 -0800
+Processing by SearchesController#results as HTML
+  Rendered searches/results.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:35:45 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:35:45 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:35:45 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:35:45 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:35:45 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:35:50 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (56.5ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (undefined method `searches_path' for #<#<Class:0x007fe15e939918>:0x007fe15e938400>):
+    1: <h1>Lookup</h1>
+    2: <%= form_for @new_search do |f| %>
+    3:     <%= f.text_field :name %>
+    4:     <%= f.button :submit %>
+    5: <% end %>
+  app/views/pages/lookup.html.erb:2:in `_app_views_pages_lookup_html_erb___897202957874314941_70302965568360'
+  app/controllers/pages_controller.rb:9:in `lookup'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:36:00 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 24ms (Views: 19.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:36:00 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:00 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:00 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:00 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:00 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:36:01 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:36:01 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:01 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:01 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:01 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:01 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 22:36:41 -0800
+Processing by PagesController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:36:45 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:36:45 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:45 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:45 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:45 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:36:45 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 22:38:09 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 84ms (Views: 65.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:38:09 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:09 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:09 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:09 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:09 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:38:14 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"name this"}, "button"=>""}
+search info: nil
+  Rendered searches/results.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:38:14 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:14 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:14 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:14 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:14 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:38:59 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: nil
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:38:59 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:59 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:59 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:38:59 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:00 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:39:16 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:39:17 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:17 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:17 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:17 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:17 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:39:45 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:39:45 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:45 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:45 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:45 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:39:45 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:41:03 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+Redirected to http://localhost:3000/results
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:41:03 -0800
+Processing by SearchesController#results as HTML
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:41:04 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:04 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:04 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:04 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:04 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:41:24 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+Redirected to http://localhost:3000/results
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:41:24 -0800
+Processing by SearchesController#results as HTML
+searchsss: nil
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:41:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:24 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:24 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:24 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:41:35 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+Redirected to http://localhost:3000/results
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results" for 127.0.0.1 at 2014-02-18 22:41:36 -0800
+Processing by SearchesController#results as HTML
+searchsss: {"controller"=>"searches", "action"=>"results"}
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:41:36 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:36 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:36 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:36 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:41:36 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:43:28 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+Redirected to http://localhost:3000/results?name=dan
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results?name=dan" for 127.0.0.1 at 2014-02-18 22:43:28 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"dan"}
+searchsss: {"name"=>"dan", "controller"=>"searches", "action"=>"results"}
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:43:28 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:43:28 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:43:28 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:43:28 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:43:28 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:46:25 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+Redirected to http://localhost:3000/results?name=dan
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results?name=dan" for 127.0.0.1 at 2014-02-18 22:46:25 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"dan"}
+searchsss: #<LolClient::Summoner:0x007ff0c2fcc140 @id=34940600, @level=30, @name="Dan", @profile_icon_id=607, @revised_at=2014-02-16 13:03:57 -0800>
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 628ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:46:26 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:46:26 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:46:26 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:46:26 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:46:26 -0800
+
+
+Started GET "/results?name=dan" for 127.0.0.1 at 2014-02-18 22:47:43 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"dan"}
+Completed 500 Internal Server Error in 616ms
+
+NoMethodError (undefined method `[]' for #<LolClient::Summoner:0x007ff0c70f22f0>):
+  app/controllers/searches_controller.rb:14:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:47:46 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"asdf"}, "button"=>""}
+search info: {"name"=>"asdf"}
+Redirected to http://localhost:3000/results?name=dan
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results?name=dan" for 127.0.0.1 at 2014-02-18 22:47:46 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"dan"}
+Completed 500 Internal Server Error in 179ms
+
+NoMethodError (undefined method `[]' for #<LolClient::Summoner:0x007ff0c2cc1608>):
+  app/controllers/searches_controller.rb:14:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/results?name=dan" for 127.0.0.1 at 2014-02-18 22:47:56 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"dan"}
+searchsss: Dan
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 208ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:47:57 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:47:57 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:47:57 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:47:57 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:47:57 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 22:49:15 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>"isixpool"}, "button"=>""}
+Redirected to http://localhost:3000/results?name=isixpool
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results?name=isixpool" for 127.0.0.1 at 2014-02-18 22:49:15 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"isixpool"}
+searchsss: I Six Pool
+  Rendered searches/results.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 681ms
+
+ActionView::Template::Error (undefined local variable or method `summoner' for #<#<Class:0x007ff0c36d70c0>:0x007ff0c36d63a0>):
+    1: Summoner Name: <%= summoner.name %>
+  app/views/searches/results.html.erb:1:in `_app_views_searches_results_html_erb__2638056958108945033_70336023799820'
+  app/controllers/searches_controller.rb:15:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/results?name=isixpool" for 127.0.0.1 at 2014-02-18 22:49:48 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"isixpool"}
+Completed 500 Internal Server Error in 256ms
+
+NameError (undefined local variable or method `summoner' for #<SearchesController:0x007ff0c2b390b0>):
+  app/controllers/searches_controller.rb:13:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/results?name=isixpool" for 127.0.0.1 at 2014-02-18 22:50:00 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"isixpool"}
+searchsss: I Six Pool
+  Rendered searches/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 162ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:50:00 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:00 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:00 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:00 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:00 -0800
+
+
+Started GET "/results?name=isixpool" for 127.0.0.1 at 2014-02-18 22:50:52 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"isixpool"}
+recent games: [#<LolClient::Game:0x007ff0c3b40d78 @id=1279305570, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="RANKED_TEAM_3x3", @team_id=100, @created_at=1392688029752, @invalid=false, @level=30, @map_id=10, @champion_id=25, @spell1=3, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c3b4a288 @assists=8, @champions_killed=3, @gold_earned=7187, @gold_spent=5395, @item0=1056, @item1=1056, @item2=3020, @item3=3135, @item4=3145, @killing_sprees=1, @largest_killing_spree=3, @largest_multi_kill=1, @level=13, @magic_damage_dealt_player=40215, @magic_damage_dealt_to_champions=11036, @magic_damage_taken=3656, @minions_killed=83, @neutral_minions_killed=8, @neutral_minions_killed_enemy_jungle=5, @neutral_minions_killed_your_jungle=3, @num_deaths=2, @physical_damage_dealt_player=10422, @physical_damage_dealt_to_champions=1284, @physical_damage_taken=4661, @team=100, @time_played=1196, @total_damage_dealt=50638, @total_damage_dealt_to_champions=12320, @total_damage_taken=8317, @total_heal=532, @total_time_crowd_control_dealt=85, @total_units_healed=1, @win=true>, @fellow_players=[#<LolClient::Player:0x007ff0c4171b70 @champion_id=64, @summoner_id=28374180, @team_id=100>, #<LolClient::Player:0x007ff0c295d7a0 @champion_id=80, @summoner_id=23235226, @team_id=200>, #<LolClient::Player:0x007ff0c30e65d0 @champion_id=34, @summoner_id=23543414, @team_id=200>, #<LolClient::Player:0x007ff0c30f53a0 @champion_id=58, @summoner_id=30878882, @team_id=100>, #<LolClient::Player:0x007ff0c3105a70 @champion_id=121, @summoner_id=22790157, @team_id=200>]>, #<LolClient::Game:0x007ff0c3113968 @id=1278855367, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="RANKED_TEAM_3x3", @team_id=100, @created_at=1392673592977, @invalid=false, @level=30, @map_id=10, @champion_id=58, @spell1=14, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c31a24b0 @assists=4, @champions_killed=8, @gold_earned=10862, @gold_spent=12340, @item0=1055, @item1=3071, @item2=3074, @item3=1006, @item4=3158, @killing_sprees=1, @largest_killing_spree=8, @largest_multi_kill=1, @level=16, @magic_damage_dealt_player=1986, @magic_damage_dealt_to_champions=833, @magic_damage_taken=3076, @minions_killed=146, @neutral_minions_killed=35, @neutral_minions_killed_enemy_jungle=18, @neutral_minions_killed_your_jungle=17, @physical_damage_dealt_player=125281, @physical_damage_dealt_to_champions=14965, @physical_damage_taken=11265, @team=100, @time_played=1272, @total_damage_dealt=128021, @total_damage_dealt_to_champions=16553, @total_damage_taken=14572, @total_heal=4148, @total_time_crowd_control_dealt=29, @total_units_healed=1, @win=true, @item5=3102, @true_damage_dealt_player=754, @true_damage_dealt_to_champions=754, @true_damage_taken=230, @turrets_killed=1>, @fellow_players=[#<LolClient::Player:0x007ff0c32c8920 @champion_id=62, @summoner_id=28374180, @team_id=100>, #<LolClient::Player:0x007ff0c32e2550 @champion_id=1, @summoner_id=19707486, @team_id=100>, #<LolClient::Player:0x007ff0c32f2450 @champion_id=32, @summoner_id=23009226, @team_id=200>, #<LolClient::Player:0x007ff0c32f8fd0 @champion_id=90, @summoner_id=23064431, @team_id=200>, #<LolClient::Player:0x007ff0c331a220 @champion_id=106, @summoner_id=23654289, @team_id=200>]>, #<LolClient::Game:0x007ff0c33221c8 @id=1278807959, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL_3x3", @team_id=200, @created_at=1392671812251, @invalid=false, @level=30, @map_id=10, @champion_id=77, @spell1=11, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c33a24e0 @assists=10, @champions_killed=4, @gold_earned=11856, @gold_spent=11550, @item0=3207, @item1=3025, @item2=3139, @item3=1006, @item4=1054, @killing_sprees=1, @largest_killing_spree=3, @largest_multi_kill=1, @level=18, @magic_damage_dealt_player=61572, @magic_damage_dealt_to_champions=4602, @magic_damage_taken=10362, @minions_killed=70, @neutral_minions_killed=90, @neutral_minions_killed_enemy_jungle=19, @neutral_minions_killed_your_jungle=71, @num_deaths=7, @physical_damage_dealt_player=40164, @physical_damage_dealt_to_champions=4497, @physical_damage_taken=12150, @team=200, @time_played=1712, @total_damage_dealt=114976, @total_damage_dealt_to_champions=9099, @total_damage_taken=23865, @total_heal=4780, @total_time_crowd_control_dealt=367, @total_units_healed=1, @win=false, @item5=3047, @true_damage_dealt_player=13240, @true_damage_taken=1352>, @fellow_players=[#<LolClient::Player:0x007ff0c4233108 @champion_id=5, @summoner_id=28374180, @team_id=200>, #<LolClient::Player:0x007ff0c297a148 @champion_id=90, @summoner_id=19707486, @team_id=200>, #<LolClient::Player:0x007ff0c424baf0 @champion_id=25, @summoner_id=26130965, @team_id=100>, #<LolClient::Player:0x007ff0c4249200 @champion_id=122, @summoner_id=39266258, @team_id=100>, #<LolClient::Player:0x007ff0c42504b0 @champion_id=157, @summoner_id=39804441, @team_id=100>]>, #<LolClient::Game:0x007ff0c4261968 @id=1278772258, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL_3x3", @team_id=200, @created_at=1392669424997, @invalid=false, @level=30, @map_id=10, @champion_id=58, @spell1=14, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c298bf38 @assists=5, @champions_killed=7, @gold_earned=17145, @gold_spent=22405, @item0=3153, @item1=3074, @item2=3143, @item3=3035, @item4=3068, @killing_sprees=2, @largest_killing_spree=5, @largest_multi_kill=1, @level=18, @magic_damage_dealt_player=4806, @magic_damage_dealt_to_champions=1851, @magic_damage_taken=9271, @minions_killed=265, @neutral_minions_killed=53, @neutral_minions_killed_enemy_jungle=23, @neutral_minions_killed_your_jungle=30, @num_deaths=6, @physical_damage_dealt_player=226398, @physical_damage_dealt_to_champions=23195, @physical_damage_taken=25174, @team=200, @time_played=2248, @total_damage_dealt=233195, @total_damage_dealt_to_champions=27036, @total_damage_taken=38360, @total_heal=4584, @total_time_crowd_control_dealt=504, @total_units_healed=1, @win=false, @item5=3158, @true_damage_dealt_player=1990, @true_damage_dealt_to_champions=1990, @true_damage_taken=3914, @turrets_killed=2>, @fellow_players=[#<LolClient::Player:0x007ff0c29fa960 @champion_id=55, @summoner_id=28374180, @team_id=200>, #<LolClient::Player:0x007ff0c2a00d88 @champion_id=75, @summoner_id=22931095, @team_id=100>, #<LolClient::Player:0x007ff0c2a09550 @champion_id=29, @summoner_id=34919268, @team_id=100>, #<LolClient::Player:0x007ff0c2a106c0 @champion_id=19, @summoner_id=21248739, @team_id=200>, #<LolClient::Player:0x007ff0c2a20458 @champion_id=45, @summoner_id=26765284, @team_id=100>]>, #<LolClient::Game:0x007ff0c2a29d78 @id=1278745528, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL_3x3", @team_id=100, @created_at=1392666797042, @invalid=false, @level=30, @map_id=10, @champion_id=54, @spell1=14, @spell2=6, @raw_stats=#<LolClient::RawStats:0x007ff0c2a41ef0 @assists=3, @champions_killed=1, @gold_earned=5408, @gold_spent=5765, @item0=1054, @item1=3024, @item2=3082, @item3=1052, @item4=3047, @largest_multi_kill=1, @level=12, @magic_damage_dealt_player=25738, @magic_damage_dealt_to_champions=4260, @magic_damage_taken=3160, @minions_killed=80, @neutral_minions_killed=3, @neutral_minions_killed_your_jungle=3, @num_deaths=5, @physical_damage_dealt_player=15951, @physical_damage_dealt_to_champions=1864, @physical_damage_taken=6295, @team=100, @time_played=1096, @total_damage_dealt=42256, @total_damage_dealt_to_champions=6690, @total_damage_taken=11175, @total_heal=708, @total_time_crowd_control_dealt=664, @total_units_healed=1, @win=false, @item5=1026, @true_damage_dealt_player=566, @true_damage_dealt_to_champions=566, @true_damage_taken=1720>, @fellow_players=[#<LolClient::Player:0x007ff0c2ae2620 @champion_id=113, @summoner_id=28374180, @team_id=100>, #<LolClient::Player:0x007ff0c2ae8548 @champion_id=126, @summoner_id=43790870, @team_id=100>, #<LolClient::Player:0x007ff0c2af2318 @champion_id=67, @summoner_id=21811738, @team_id=200>, #<LolClient::Player:0x007ff0c2afb5f8 @champion_id=157, @summoner_id=30444585, @team_id=200>, #<LolClient::Player:0x007ff0c2b02e48 @champion_id=79, @summoner_id=26794148, @team_id=200>]>, #<LolClient::Game:0x007ff0c2b1bf10 @id=1278734283, @mode="ODIN", @type="MATCHED_GAME", @sub_type="ODIN_UNRANKED", @team_id=200, @created_at=1392665366284, @invalid=false, @level=30, @map_id=8, @champion_id=122, @spell1=14, @spell2=6, @raw_stats=#<LolClient::RawStats:0x007ff0c2b307f8 @assists=5, @champions_killed=6, @gold_earned=7142, @gold_spent=6885, @item0=3068, @item1=3047, @item2=3044, @item3=1037, @item4=1011, @killing_sprees=2, @largest_killing_spree=2, @largest_multi_kill=1, @level=13, @magic_damage_dealt_player=4700, @magic_damage_dealt_to_champions=2564, @magic_damage_taken=4803, @minions_killed=18, @num_deaths=5, @physical_damage_dealt_player=15149, @physical_damage_dealt_to_champions=7298, @physical_damage_taken=7795, @team=200, @time_played=762, @total_damage_dealt=21593, @total_damage_dealt_to_champions=11606, @total_damage_taken=12749, @total_heal=1740, @total_time_crowd_control_dealt=52, @total_units_healed=1, @win=false, @true_damage_dealt_player=1743, @true_damage_dealt_to_champions=1743, @true_damage_taken=150, @combat_player_score=386, @node_capture=5, @node_neutralize=3, @node_neutralize_assist=1, @objective_player_score=538, @total_player_score=924, @total_score_rank=1>, @fellow_players=[#<LolClient::Player:0x007ff0c2bb8a40 @champion_id=113, @summoner_id=28374180, @team_id=200>, #<LolClient::Player:0x007ff0c2bcbca8 @champion_id=23, @summoner_id=49030692, @team_id=100>, #<LolClient::Player:0x007ff0c2bc8788 @champion_id=76, @summoner_id=44523441, @team_id=200>, #<LolClient::Player:0x007ff0c2bd0640 @champion_id=101, @summoner_id=45939885, @team_id=200>, #<LolClient::Player:0x007ff0c2bd9538 @champion_id=412, @summoner_id=28433881, @team_id=200>, #<LolClient::Player:0x007ff0c2be2098 @champion_id=64, @summoner_id=23951800, @team_id=100>, #<LolClient::Player:0x007ff0c2bfbc78 @champion_id=117, @summoner_id=21063646, @team_id=100>, #<LolClient::Player:0x007ff0c2bf80f0 @champion_id=7, @summoner_id=44735494, @team_id=100>, #<LolClient::Player:0x007ff0c2c00188 @champion_id=92, @summoner_id=22031806, @team_id=100>]>, #<LolClient::Game:0x007ff0c2c09ee0 @id=1278591800, @mode="ODIN", @type="MATCHED_GAME", @sub_type="ODIN_UNRANKED", @team_id=100, @created_at=1392650784923, @invalid=false, @level=30, @map_id=8, @champion_id=76, @spell1=14, @spell2=6, @raw_stats=#<LolClient::RawStats:0x007ff0c2c2bc20 @assists=15, @champions_killed=6, @gold_earned=9857, @gold_spent=9115, @item0=1063, @item1=3020, @item2=3090, @item3=3135, @item4=3145, @killing_sprees=2, @largest_killing_spree=3, @largest_multi_kill=3, @level=17, @magic_damage_dealt_player=17573, @magic_damage_dealt_to_champions=10084, @magic_damage_taken=5684, @minions_killed=15, @num_deaths=5, @physical_damage_dealt_player=5381, @physical_damage_dealt_to_champions=2099, @physical_damage_taken=9782, @team=100, @time_played=1084, @total_damage_dealt=23200, @total_damage_dealt_to_champions=12430, @total_damage_taken=15761, @total_heal=6526, @total_units_healed=5, @win=false, @true_damage_dealt_player=246, @true_damage_dealt_to_champions=246, @true_damage_taken=294, @combat_player_score=364, @node_capture=5, @node_neutralize=2, @node_neutralize_assist=2, @objective_player_score=594, @total_player_score=958, @total_score_rank=3, @double_kills=1, @team_objective=1, @triple_kills=1>, @fellow_players=[#<LolClient::Player:0x007ff0c2ca91c0 @champion_id=105, @summoner_id=22730809, @team_id=100>, #<LolClient::Player:0x007ff0c2cb0c68 @champion_id=10, @summoner_id=19819629, @team_id=200>, #<LolClient::Player:0x007ff0c2cc2d78 @champion_id=41, @summoner_id=27435545, @team_id=200>, #<LolClient::Player:0x007ff0c2ccbc70 @champion_id=11, @summoner_id=28885009, @team_id=100>, #<LolClient::Player:0x007ff0c2cd2930 @champion_id=238, @summoner_id=27485468, @team_id=200>, #<LolClient::Player:0x007ff0c2cd9d70 @champion_id=20, @summoner_id=27390439, @team_id=100>, #<LolClient::Player:0x007ff0c2ce2a60 @champion_id=62, @summoner_id=23696596, @team_id=100>, #<LolClient::Player:0x007ff0c2cea648 @champion_id=33, @summoner_id=37834498, @team_id=200>, #<LolClient::Player:0x007ff0c2cf3b58 @champion_id=105, @summoner_id=37457222, @team_id=200>]>, #<LolClient::Game:0x007ff0c2cf1308 @id=1277799400, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL", @team_id=200, @created_at=1392600615554, @invalid=false, @level=30, @map_id=1, @champion_id=412, @spell1=3, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c2d1b748 @assists=2, @champions_killed=5, @gold_earned=7048, @gold_spent=6100, @item0=3096, @item1=2049, @item2=2043, @item3=1054, @item4=1001, @killing_sprees=1, @largest_killing_spree=4, @largest_multi_kill=1, @level=11, @magic_damage_dealt_player=7903, @magic_damage_dealt_to_champions=4181, @magic_damage_taken=1250, @minions_killed=9, @num_deaths=1, @physical_damage_dealt_player=3177, @physical_damage_dealt_to_champions=1388, @physical_damage_taken=3826, @team=200, @time_played=1244, @total_damage_dealt=11399, @total_damage_dealt_to_champions=5864, @total_damage_taken=5166, @total_heal=130, @total_time_crowd_control_dealt=146, @total_units_healed=1, @win=true, @item5=3105, @true_damage_dealt_player=318, @true_damage_dealt_to_champions=294, @true_damage_taken=90, @item6=3364, @sight_wards_bought=3, @vision_wards_bought=2, @ward_killed=1, @ward_placed=8>, @fellow_players=[#<LolClient::Player:0x007ff0c2d91128 @champion_id=157, @summoner_id=34781152, @team_id=200>, #<LolClient::Player:0x007ff0c2d98cc0 @champion_id=106, @summoner_id=35561315, @team_id=100>, #<LolClient::Player:0x007ff0c2da23b0 @champion_id=21, @summoner_id=27694017, @team_id=200>, #<LolClient::Player:0x007ff0c2dab410 @champion_id=110, @summoner_id=30709727, @team_id=100>, #<LolClient::Player:0x007ff0c2da9cf0 @champion_id=7, @summoner_id=23697954, @team_id=100>, #<LolClient::Player:0x007ff0c2da80a8 @champion_id=75, @summoner_id=21691006, @team_id=200>, #<LolClient::Player:0x007ff0c2db1fb8 @champion_id=64, @summoner_id=37342822, @team_id=200>, #<LolClient::Player:0x007ff0c2db9f10 @champion_id=55, @summoner_id=34092564, @team_id=100>, #<LolClient::Player:0x007ff0c2dcbcb0 @champion_id=254, @summoner_id=22562078, @team_id=100>]>, #<LolClient::Game:0x007ff0c2dd2998 @id=1277757783, @mode="ARAM", @type="MATCHED_GAME", @sub_type="ARAM_UNRANKED_5x5", @team_id=200, @created_at=1392597967096, @invalid=false, @level=30, @map_id=12, @champion_id=37, @spell1=21, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c2de8e28 @assists=18, @champions_killed=4, @gold_earned=7931, @gold_spent=5375, @item0=3174, @item1=3158, @item2=1026, @killing_sprees=1, @largest_killing_spree=2, @largest_multi_kill=1, @level=14, @magic_damage_dealt_player=19584, @magic_damage_dealt_to_champions=7063, @magic_damage_taken=7847, @minions_killed=23, @num_deaths=4, @physical_damage_dealt_player=5286, @physical_damage_dealt_to_champions=2004, @physical_damage_taken=5233, @team=200, @time_played=964, @total_damage_dealt=24870, @total_damage_dealt_to_champions=9067, @total_damage_taken=13251, @total_heal=12998, @total_time_crowd_control_dealt=155, @total_units_healed=5, @win=false, @true_damage_taken=170>, @fellow_players=[#<LolClient::Player:0x007ff0c2e32eb0 @champion_id=115, @summoner_id=26396642, @team_id=100>, #<LolClient::Player:0x007ff0c2e3b038 @champion_id=5, @summoner_id=48032068, @team_id=100>, #<LolClient::Player:0x007ff0c2e38b58 @champion_id=59, @summoner_id=35912724, @team_id=200>, #<LolClient::Player:0x007ff0c2e43260 @champion_id=58, @summoner_id=36332999, @team_id=200>, #<LolClient::Player:0x007ff0c2e41a50 @champion_id=90, @summoner_id=24718608, @team_id=100>, #<LolClient::Player:0x007ff0c2e40240 @champion_id=101, @summoner_id=25032214, @team_id=100>, #<LolClient::Player:0x007ff0c2e4a060 @champion_id=54, @summoner_id=34094938, @team_id=200>, #<LolClient::Player:0x007ff0c2e480d0 @champion_id=92, @summoner_id=36520759, @team_id=200>, #<LolClient::Player:0x007ff0c2e5bab8 @champion_id=104, @summoner_id=23961255, @team_id=100>]>, #<LolClient::Game:0x007ff0c2e63b50 @id=1276896780, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL", @team_id=200, @created_at=1392537588134, @invalid=false, @level=30, @map_id=1, @champion_id=101, @spell1=12, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c2e722e0 @assists=22, @champions_killed=25, @gold_earned=24562, @gold_spent=24100, @item0=3151, @item1=3128, @item2=3157, @item3=3026, @item4=3135, @killing_sprees=4, @largest_killing_spree=18, @largest_multi_kill=3, @level=18, @magic_damage_dealt_player=305438, @magic_damage_dealt_to_champions=72372, @magic_damage_taken=5563, @minions_killed=289, @neutral_minions_killed=20, @neutral_minions_killed_enemy_jungle=1, @neutral_minions_killed_your_jungle=19, @num_deaths=6, @physical_damage_dealt_player=23289, @physical_damage_dealt_to_champions=1724, @physical_damage_taken=17378, @team=200, @time_played=2974, @total_damage_dealt=329958, @total_damage_dealt_to_champions=74670, @total_damage_taken=24302, @total_heal=7067, @total_time_crowd_control_dealt=797, @total_units_healed=1, @win=true, @item5=3089, @true_damage_dealt_player=1230, @true_damage_dealt_to_champions=574, @true_damage_taken=1360, @double_kills=4, @triple_kills=1, @item6=3361, @sight_wards_bought=1, @ward_placed=10>, @fellow_players=[#<LolClient::Player:0x007ff0c2eb3060 @champion_id=157, @summoner_id=27299258, @team_id=100>, #<LolClient::Player:0x007ff0c2eb0ba8 @champion_id=78, @summoner_id=22295200, @team_id=200>, #<LolClient::Player:0x007ff0c2ebb148 @champion_id=33, @summoner_id=23058382, @team_id=100>, #<LolClient::Player:0x007ff0c2eb9050 @champion_id=67, @summoner_id=38353718, @team_id=100>, #<LolClient::Player:0x007ff0c2ec2178 @champion_id=22, @summoner_id=24133808, @team_id=200>, #<LolClient::Player:0x007ff0c2ec0530 @champion_id=54, @summoner_id=34651719, @team_id=200>, #<LolClient::Player:0x007ff0c2ecaf80 @champion_id=44, @summoner_id=31995856, @team_id=200>, #<LolClient::Player:0x007ff0c2ec98d8 @champion_id=2, @summoner_id=34109034, @team_id=100>, #<LolClient::Player:0x007ff0c2ed3220 @champion_id=92, @summoner_id=31231951, @team_id=100>]>]
+  Rendered searches/results.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1185ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:50:54 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:54 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:54 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:54 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:50:54 -0800
+
+
+Started GET "/results?name=isixpool" for 127.0.0.1 at 2014-02-18 22:54:54 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>"isixpool"}
+recent games: [#<LolClient::Game:0x007ff0c3a1a2f0 @id=1279305570, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="RANKED_TEAM_3x3", @team_id=100, @created_at=1392688029752, @invalid=false, @level=30, @map_id=10, @champion_id=25, @spell1=3, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c3a228b0 @assists=8, @champions_killed=3, @gold_earned=7187, @gold_spent=5395, @item0=1056, @item1=1056, @item2=3020, @item3=3135, @item4=3145, @killing_sprees=1, @largest_killing_spree=3, @largest_multi_kill=1, @level=13, @magic_damage_dealt_player=40215, @magic_damage_dealt_to_champions=11036, @magic_damage_taken=3656, @minions_killed=83, @neutral_minions_killed=8, @neutral_minions_killed_enemy_jungle=5, @neutral_minions_killed_your_jungle=3, @num_deaths=2, @physical_damage_dealt_player=10422, @physical_damage_dealt_to_champions=1284, @physical_damage_taken=4661, @team=100, @time_played=1196, @total_damage_dealt=50638, @total_damage_dealt_to_champions=12320, @total_damage_taken=8317, @total_heal=532, @total_time_crowd_control_dealt=85, @total_units_healed=1, @win=true>, @fellow_players=[#<LolClient::Player:0x007ff0c3a422f0 @champion_id=64, @summoner_id=28374180, @team_id=100>, #<LolClient::Player:0x007ff0c3a41288 @champion_id=80, @summoner_id=23235226, @team_id=200>, #<LolClient::Player:0x007ff0c3a402c0 @champion_id=34, @summoner_id=23543414, @team_id=200>, #<LolClient::Player:0x007ff0c3a4b710 @champion_id=58, @summoner_id=30878882, @team_id=100>, #<LolClient::Player:0x007ff0c3a49ca8 @champion_id=121, @summoner_id=22790157, @team_id=200>]>, #<LolClient::Game:0x007ff0c3a48a88 @id=1278855367, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="RANKED_TEAM_3x3", @team_id=100, @created_at=1392673592977, @invalid=false, @level=30, @map_id=10, @champion_id=58, @spell1=14, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c3a50eb8 @assists=4, @champions_killed=8, @gold_earned=10862, @gold_spent=12340, @item0=1055, @item1=3071, @item2=3074, @item3=1006, @item4=3158, @killing_sprees=1, @largest_killing_spree=8, @largest_multi_kill=1, @level=16, @magic_damage_dealt_player=1986, @magic_damage_dealt_to_champions=833, @magic_damage_taken=3076, @minions_killed=146, @neutral_minions_killed=35, @neutral_minions_killed_enemy_jungle=18, @neutral_minions_killed_your_jungle=17, @physical_damage_dealt_player=125281, @physical_damage_dealt_to_champions=14965, @physical_damage_taken=11265, @team=100, @time_played=1272, @total_damage_dealt=128021, @total_damage_dealt_to_champions=16553, @total_damage_taken=14572, @total_heal=4148, @total_time_crowd_control_dealt=29, @total_units_healed=1, @win=true, @item5=3102, @true_damage_dealt_player=754, @true_damage_dealt_to_champions=754, @true_damage_taken=230, @turrets_killed=1>, @fellow_players=[#<LolClient::Player:0x007ff0c34d73b0 @champion_id=62, @summoner_id=28374180, @team_id=100>, #<LolClient::Player:0x007ff0c34d6258 @champion_id=1, @summoner_id=19707486, @team_id=100>, #<LolClient::Player:0x007ff0c34d5088 @champion_id=32, @summoner_id=23009226, @team_id=200>, #<LolClient::Player:0x007ff0c34dc888 @champion_id=90, @summoner_id=23064431, @team_id=200>, #<LolClient::Player:0x007ff0c34df0b0 @champion_id=106, @summoner_id=23654289, @team_id=200>]>, #<LolClient::Game:0x007ff0c34ddd50 @id=1278807959, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL_3x3", @team_id=200, @created_at=1392671812251, @invalid=false, @level=30, @map_id=10, @champion_id=77, @spell1=11, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c34e6c20 @assists=10, @champions_killed=4, @gold_earned=11856, @gold_spent=11550, @item0=3207, @item1=3025, @item2=3139, @item3=1006, @item4=1054, @killing_sprees=1, @largest_killing_spree=3, @largest_multi_kill=1, @level=18, @magic_damage_dealt_player=61572, @magic_damage_dealt_to_champions=4602, @magic_damage_taken=10362, @minions_killed=70, @neutral_minions_killed=90, @neutral_minions_killed_enemy_jungle=19, @neutral_minions_killed_your_jungle=71, @num_deaths=7, @physical_damage_dealt_player=40164, @physical_damage_dealt_to_champions=4497, @physical_damage_taken=12150, @team=200, @time_played=1712, @total_damage_dealt=114976, @total_damage_dealt_to_champions=9099, @total_damage_taken=23865, @total_heal=4780, @total_time_crowd_control_dealt=367, @total_units_healed=1, @win=false, @item5=3047, @true_damage_dealt_player=13240, @true_damage_taken=1352>, @fellow_players=[#<LolClient::Player:0x007ff0c2f34480 @champion_id=5, @summoner_id=28374180, @team_id=200>, #<LolClient::Player:0x007ff0c2f47800 @champion_id=90, @summoner_id=19707486, @team_id=200>, #<LolClient::Player:0x007ff0c2f46748 @champion_id=25, @summoner_id=26130965, @team_id=100>, #<LolClient::Player:0x007ff0c2f45500 @champion_id=122, @summoner_id=39266258, @team_id=100>, #<LolClient::Player:0x007ff0c2f443f8 @champion_id=157, @summoner_id=39804441, @team_id=100>]>, #<LolClient::Game:0x007ff0c2f4f348 @id=1278772258, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL_3x3", @team_id=200, @created_at=1392669424997, @invalid=false, @level=30, @map_id=10, @champion_id=58, @spell1=14, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c2f57ae8 @assists=5, @champions_killed=7, @gold_earned=17145, @gold_spent=22405, @item0=3153, @item1=3074, @item2=3143, @item3=3035, @item4=3068, @killing_sprees=2, @largest_killing_spree=5, @largest_multi_kill=1, @level=18, @magic_damage_dealt_player=4806, @magic_damage_dealt_to_champions=1851, @magic_damage_taken=9271, @minions_killed=265, @neutral_minions_killed=53, @neutral_minions_killed_enemy_jungle=23, @neutral_minions_killed_your_jungle=30, @num_deaths=6, @physical_damage_dealt_player=226398, @physical_damage_dealt_to_champions=23195, @physical_damage_taken=25174, @team=200, @time_played=2248, @total_damage_dealt=233195, @total_damage_dealt_to_champions=27036, @total_damage_taken=38360, @total_heal=4584, @total_time_crowd_control_dealt=504, @total_units_healed=1, @win=false, @item5=3158, @true_damage_dealt_player=1990, @true_damage_dealt_to_champions=1990, @true_damage_taken=3914, @turrets_killed=2>, @fellow_players=[#<LolClient::Player:0x007ff0c2f6df78 @champion_id=55, @summoner_id=28374180, @team_id=200>, #<LolClient::Player:0x007ff0c2f6c8a8 @champion_id=75, @summoner_id=22931095, @team_id=100>, #<LolClient::Player:0x007ff0c2f77a28 @champion_id=29, @summoner_id=34919268, @team_id=100>, #<LolClient::Player:0x007ff0c2f767e0 @champion_id=19, @summoner_id=21248739, @team_id=200>, #<LolClient::Player:0x007ff0c2f75700 @champion_id=45, @summoner_id=26765284, @team_id=100>]>, #<LolClient::Game:0x007ff0c2f743a0 @id=1278745528, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL_3x3", @team_id=100, @created_at=1392666797042, @invalid=false, @level=30, @map_id=10, @champion_id=54, @spell1=14, @spell2=6, @raw_stats=#<LolClient::RawStats:0x007ff0c34fd0d8 @assists=3, @champions_killed=1, @gold_earned=5408, @gold_spent=5765, @item0=1054, @item1=3024, @item2=3082, @item3=1052, @item4=3047, @largest_multi_kill=1, @level=12, @magic_damage_dealt_player=25738, @magic_damage_dealt_to_champions=4260, @magic_damage_taken=3160, @minions_killed=80, @neutral_minions_killed=3, @neutral_minions_killed_your_jungle=3, @num_deaths=5, @physical_damage_dealt_player=15951, @physical_damage_dealt_to_champions=1864, @physical_damage_taken=6295, @team=100, @time_played=1096, @total_damage_dealt=42256, @total_damage_dealt_to_champions=6690, @total_damage_taken=11175, @total_heal=708, @total_time_crowd_control_dealt=664, @total_units_healed=1, @win=false, @item5=1026, @true_damage_dealt_player=566, @true_damage_dealt_to_champions=566, @true_damage_taken=1720>, @fellow_players=[#<LolClient::Player:0x007ff0c351fae8 @champion_id=113, @summoner_id=28374180, @team_id=100>, #<LolClient::Player:0x007ff0c351e9e0 @champion_id=126, @summoner_id=43790870, @team_id=100>, #<LolClient::Player:0x007ff0c351d4f0 @champion_id=67, @summoner_id=21811738, @team_id=200>, #<LolClient::Player:0x007ff0c351c348 @champion_id=157, @summoner_id=30444585, @team_id=200>, #<LolClient::Player:0x007ff0c3a636d0 @champion_id=79, @summoner_id=26794148, @team_id=200>]>, #<LolClient::Game:0x007ff0c3a62398 @id=1278734283, @mode="ODIN", @type="MATCHED_GAME", @sub_type="ODIN_UNRANKED", @team_id=200, @created_at=1392665366284, @invalid=false, @level=30, @map_id=8, @champion_id=122, @spell1=14, @spell2=6, @raw_stats=#<LolClient::RawStats:0x007ff0c3a6b0b0 @assists=5, @champions_killed=6, @gold_earned=7142, @gold_spent=6885, @item0=3068, @item1=3047, @item2=3044, @item3=1037, @item4=1011, @killing_sprees=2, @largest_killing_spree=2, @largest_multi_kill=1, @level=13, @magic_damage_dealt_player=4700, @magic_damage_dealt_to_champions=2564, @magic_damage_taken=4803, @minions_killed=18, @num_deaths=5, @physical_damage_dealt_player=15149, @physical_damage_dealt_to_champions=7298, @physical_damage_taken=7795, @team=200, @time_played=762, @total_damage_dealt=21593, @total_damage_dealt_to_champions=11606, @total_damage_taken=12749, @total_heal=1740, @total_time_crowd_control_dealt=52, @total_units_healed=1, @win=false, @true_damage_dealt_player=1743, @true_damage_dealt_to_champions=1743, @true_damage_taken=150, @combat_player_score=386, @node_capture=5, @node_neutralize=3, @node_neutralize_assist=1, @objective_player_score=538, @total_player_score=924, @total_score_rank=1>, @fellow_players=[#<LolClient::Player:0x007ff0c3a81680 @champion_id=113, @summoner_id=28374180, @team_id=200>, #<LolClient::Player:0x007ff0c3a80528 @champion_id=23, @summoner_id=49030692, @team_id=100>, #<LolClient::Player:0x007ff0c3a8b770 @champion_id=76, @summoner_id=44523441, @team_id=200>, #<LolClient::Player:0x007ff0c3a8a370 @champion_id=101, @summoner_id=45939885, @team_id=200>, #<LolClient::Player:0x007ff0c3a891c8 @champion_id=412, @summoner_id=28433881, @team_id=200>, #<LolClient::Player:0x007ff0c3a93358 @champion_id=64, @summoner_id=23951800, @team_id=100>, #<LolClient::Player:0x007ff0c3a92f70 @champion_id=117, @summoner_id=21063646, @team_id=100>, #<LolClient::Player:0x007ff0c3a91e18 @champion_id=7, @summoner_id=44735494, @team_id=100>, #<LolClient::Player:0x007ff0c3a90b30 @champion_id=92, @summoner_id=22031806, @team_id=100>]>, #<LolClient::Game:0x007ff0c3a9bdf0 @id=1278591800, @mode="ODIN", @type="MATCHED_GAME", @sub_type="ODIN_UNRANKED", @team_id=100, @created_at=1392650784923, @invalid=false, @level=30, @map_id=8, @champion_id=76, @spell1=14, @spell2=6, @raw_stats=#<LolClient::RawStats:0x007ff0c3a98948 @assists=15, @champions_killed=6, @gold_earned=9857, @gold_spent=9115, @item0=1063, @item1=3020, @item2=3090, @item3=3135, @item4=3145, @killing_sprees=2, @largest_killing_spree=3, @largest_multi_kill=3, @level=17, @magic_damage_dealt_player=17573, @magic_damage_dealt_to_champions=10084, @magic_damage_taken=5684, @minions_killed=15, @num_deaths=5, @physical_damage_dealt_player=5381, @physical_damage_dealt_to_champions=2099, @physical_damage_taken=9782, @team=100, @time_played=1084, @total_damage_dealt=23200, @total_damage_dealt_to_champions=12430, @total_damage_taken=15761, @total_heal=6526, @total_units_healed=5, @win=false, @true_damage_dealt_player=246, @true_damage_dealt_to_champions=246, @true_damage_taken=294, @combat_player_score=364, @node_capture=5, @node_neutralize=2, @node_neutralize_assist=2, @objective_player_score=594, @total_player_score=958, @total_score_rank=3, @double_kills=1, @team_objective=1, @triple_kills=1>, @fellow_players=[#<LolClient::Player:0x007ff0c3aba6b0 @champion_id=105, @summoner_id=22730809, @team_id=100>, #<LolClient::Player:0x007ff0c3ab9300 @champion_id=10, @summoner_id=19819629, @team_id=200>, #<LolClient::Player:0x007ff0c3ab8158 @champion_id=41, @summoner_id=27435545, @team_id=200>, #<LolClient::Player:0x007ff0c3ac3990 @champion_id=11, @summoner_id=28885009, @team_id=100>, #<LolClient::Player:0x007ff0c3ac2888 @champion_id=238, @summoner_id=27485468, @team_id=200>, #<LolClient::Player:0x007ff0c3ac1320 @champion_id=20, @summoner_id=27390439, @team_id=100>, #<LolClient::Player:0x007ff0c3acbb68 @champion_id=62, @summoner_id=23696596, @team_id=100>, #<LolClient::Player:0x007ff0c3ac8800 @champion_id=33, @summoner_id=37834498, @team_id=200>, #<LolClient::Player:0x007ff0c3ad32f0 @champion_id=105, @summoner_id=37457222, @team_id=200>]>, #<LolClient::Game:0x007ff0c3ad2120 @id=1277799400, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL", @team_id=200, @created_at=1392600615554, @invalid=false, @level=30, @map_id=1, @champion_id=412, @spell1=3, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c4361f48 @assists=2, @champions_killed=5, @gold_earned=7048, @gold_spent=6100, @item0=3096, @item1=2049, @item2=2043, @item3=1054, @item4=1001, @killing_sprees=1, @largest_killing_spree=4, @largest_multi_kill=1, @level=11, @magic_damage_dealt_player=7903, @magic_damage_dealt_to_champions=4181, @magic_damage_taken=1250, @minions_killed=9, @num_deaths=1, @physical_damage_dealt_player=3177, @physical_damage_dealt_to_champions=1388, @physical_damage_taken=3826, @team=200, @time_played=1244, @total_damage_dealt=11399, @total_damage_dealt_to_champions=5864, @total_damage_taken=5166, @total_heal=130, @total_time_crowd_control_dealt=146, @total_units_healed=1, @win=true, @item5=3105, @true_damage_dealt_player=318, @true_damage_dealt_to_champions=294, @true_damage_taken=90, @item6=3364, @sight_wards_bought=3, @vision_wards_bought=2, @ward_killed=1, @ward_placed=8>, @fellow_players=[#<LolClient::Player:0x007ff0c43832b0 @champion_id=157, @summoner_id=34781152, @team_id=200>, #<LolClient::Player:0x007ff0c4381c08 @champion_id=106, @summoner_id=35561315, @team_id=100>, #<LolClient::Player:0x007ff0c43809e8 @champion_id=21, @summoner_id=27694017, @team_id=200>, #<LolClient::Player:0x007ff0c438bbb8 @champion_id=110, @summoner_id=30709727, @team_id=100>, #<LolClient::Player:0x007ff0c438a9c0 @champion_id=7, @summoner_id=23697954, @team_id=100>, #<LolClient::Player:0x007ff0c4389458 @champion_id=75, @summoner_id=21691006, @team_id=200>, #<LolClient::Player:0x007ff0c4393ca0 @champion_id=64, @summoner_id=37342822, @team_id=200>, #<LolClient::Player:0x007ff0c4392cb0 @champion_id=55, @summoner_id=34092564, @team_id=100>, #<LolClient::Player:0x007ff0c4391900 @champion_id=254, @summoner_id=22562078, @team_id=100>]>, #<LolClient::Game:0x007ff0c43902f8 @id=1277757783, @mode="ARAM", @type="MATCHED_GAME", @sub_type="ARAM_UNRANKED_5x5", @team_id=200, @created_at=1392597967096, @invalid=false, @level=30, @map_id=12, @champion_id=37, @spell1=21, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c4398b10 @assists=18, @champions_killed=4, @gold_earned=7931, @gold_spent=5375, @item0=3174, @item1=3158, @item2=1026, @killing_sprees=1, @largest_killing_spree=2, @largest_multi_kill=1, @level=14, @magic_damage_dealt_player=19584, @magic_damage_dealt_to_champions=7063, @magic_damage_taken=7847, @minions_killed=23, @num_deaths=4, @physical_damage_dealt_player=5286, @physical_damage_dealt_to_champions=2004, @physical_damage_taken=5233, @team=200, @time_played=964, @total_damage_dealt=24870, @total_damage_dealt_to_champions=9067, @total_damage_taken=13251, @total_heal=12998, @total_time_crowd_control_dealt=155, @total_units_healed=5, @win=false, @true_damage_taken=170>, @fellow_players=[#<LolClient::Player:0x007ff0c2f8e160 @champion_id=115, @summoner_id=26396642, @team_id=100>, #<LolClient::Player:0x007ff0c2f8c9c8 @champion_id=5, @summoner_id=48032068, @team_id=100>, #<LolClient::Player:0x007ff0c2f97968 @champion_id=59, @summoner_id=35912724, @team_id=200>, #<LolClient::Player:0x007ff0c2f96608 @champion_id=58, @summoner_id=36332999, @team_id=200>, #<LolClient::Player:0x007ff0c2f95000 @champion_id=90, @summoner_id=24718608, @team_id=100>, #<LolClient::Player:0x007ff0c2f9fe38 @champion_id=101, @summoner_id=25032214, @team_id=100>, #<LolClient::Player:0x007ff0c2f9eb00 @champion_id=54, @summoner_id=34094938, @team_id=200>, #<LolClient::Player:0x007ff0c2f9d840 @champion_id=92, @summoner_id=36520759, @team_id=200>, #<LolClient::Player:0x007ff0c2f9c198 @champion_id=104, @summoner_id=23961255, @team_id=100>]>, #<LolClient::Game:0x007ff0c2fa6e90 @id=1276896780, @mode="CLASSIC", @type="MATCHED_GAME", @sub_type="NORMAL", @team_id=200, @created_at=1392537588134, @invalid=false, @level=30, @map_id=1, @champion_id=101, @spell1=12, @spell2=4, @raw_stats=#<LolClient::RawStats:0x007ff0c2fad830 @assists=22, @champions_killed=25, @gold_earned=24562, @gold_spent=24100, @item0=3151, @item1=3128, @item2=3157, @item3=3026, @item4=3135, @killing_sprees=4, @largest_killing_spree=18, @largest_multi_kill=3, @level=18, @magic_damage_dealt_player=305438, @magic_damage_dealt_to_champions=72372, @magic_damage_taken=5563, @minions_killed=289, @neutral_minions_killed=20, @neutral_minions_killed_enemy_jungle=1, @neutral_minions_killed_your_jungle=19, @num_deaths=6, @physical_damage_dealt_player=23289, @physical_damage_dealt_to_champions=1724, @physical_damage_taken=17378, @team=200, @time_played=2974, @total_damage_dealt=329958, @total_damage_dealt_to_champions=74670, @total_damage_taken=24302, @total_heal=7067, @total_time_crowd_control_dealt=797, @total_units_healed=1, @win=true, @item5=3089, @true_damage_dealt_player=1230, @true_damage_dealt_to_champions=574, @true_damage_taken=1360, @double_kills=4, @triple_kills=1, @item6=3361, @sight_wards_bought=1, @ward_placed=10>, @fellow_players=[#<LolClient::Player:0x007ff0c353d930 @champion_id=157, @summoner_id=27299258, @team_id=100>, #<LolClient::Player:0x007ff0c353c968 @champion_id=78, @summoner_id=22295200, @team_id=200>, #<LolClient::Player:0x007ff0c3545ec8 @champion_id=33, @summoner_id=23058382, @team_id=100>, #<LolClient::Player:0x007ff0c3546b20 @champion_id=67, @summoner_id=38353718, @team_id=100>, #<LolClient::Player:0x007ff0c3545130 @champion_id=22, @summoner_id=24133808, @team_id=200>, #<LolClient::Player:0x007ff0c3ad8d18 @champion_id=54, @summoner_id=34651719, @team_id=200>, #<LolClient::Player:0x007ff0c3adbc70 @champion_id=44, @summoner_id=31995856, @team_id=200>, #<LolClient::Player:0x007ff0c3ada758 @champion_id=2, @summoner_id=34109034, @team_id=100>, #<LolClient::Player:0x007ff0c3ad9100 @champion_id=92, @summoner_id=31231951, @team_id=100>]>]
+  Rendered searches/results.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 837ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 22:54:55 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 22:54:55 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 22:54:55 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 22:54:55 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 22:54:55 -0800
