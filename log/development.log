@@ -3129,3 +3129,121 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 23:49:30
 
 
 Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-18 23:49:30 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:13 -0800
+
+
+Started POST "/searches" for 127.0.0.1 at 2014-02-18 23:53:14 -0800
+Processing by SearchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8i3jXXzXkvvkwj5uthvKZ7J9OzdndLeZvIxRG5XBNA4=", "search"=>{"name"=>""}, "button"=>""}
+Redirected to http://localhost:3000/results?name=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/results?name=" for 127.0.0.1 at 2014-02-18 23:53:14 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>""}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (invalid summoner name):
+  app/controllers/searches_controller.rb:12:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/results?name=" for 127.0.0.1 at 2014-02-18 23:53:16 -0800
+Processing by SearchesController#results as HTML
+  Parameters: {"name"=>""}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (invalid summoner name):
+  app/controllers/searches_controller.rb:12:in `results'
+
+
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/dan/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.3ms)
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/lookup" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+Processing by PagesController#lookup as HTML
+  Rendered pages/lookup.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-02-18 23:53:18 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:19 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 23:53:19 -0800
