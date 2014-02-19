@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 # Custom stuff
 gem 'multi_json', '1.8.4'
 gem 'lol_client', :path => './vendor/lol_client'
-
+gem 'rails_serve_static_assets'
 # Use sqlite3 as the database for Active Record in Development and testing
 group :development do
   gem 'sqlite3'

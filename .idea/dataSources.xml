@@ -10,7 +10,7 @@
     <data-source source="LOCAL" name="Rails revived-lassie: production" uuid="c4ce8c50-564f-490e-9b3e-042ca109bf98">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:dcpvv9k9fjs6es</jdbc-url>
+      <jdbc-url>jdbc:postgresql:teal</jdbc-url>
       <user-name>pdheyfdjyidynv</user-name>
       <user-password>dfebdfcbdf9adfdbdffcdfcbdfc4dfe0dfdddffcdfc3dfe4dfe2dfe0dfd0df9bdfdadfd2dfe3dfcddfd3dfe6dfc7dfc9dfe2df9a</user-password>
       <libraries />
