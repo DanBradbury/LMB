@@ -1,5 +1,41 @@
-<h1>Lookup</h1>
-<%= form_for @new_search do |f| %>
-    <%= f.text_field :name %>
-    <%= f.button :submit %>
-<% end %>
+<div class="container">
+
+  <div class="row">
+
+    <div class="span4 offset4">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#" style="color: #ffffff;">ADMIN PANEL</a>
+            <div class="nav-collapse">
+
+            </div><!-- /.nav-collapse -->
+          </div>
+        </div><!-- /navbar-inner -->
+      </div>
+
+      <form class="well" action="pages/dashboard.html">
+        <div class="input-prepend">
+          <span class="add-on"><i class="icon-envelope"></i></span>
+          <input class="span2" type="text" placeholder="Email address">
+        </div>
+        <div class="input-prepend">
+          <span class="add-on"><i class="icon-key"></i></span>
+          <input class="span2" type="password" placeholder="Password">
+        </div>
+        <br>
+        <div class="input-prepend">
+          <button class="btn btn-danger"><i class="icon-check"></i> Login</button>
+        </div>
+      </form>
+
+    </div>
+
+  </div>
+
+</div>

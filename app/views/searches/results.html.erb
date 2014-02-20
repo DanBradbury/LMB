@@ -3,7 +3,7 @@ Summoner Name: <%= @summoner.name %> | Current League: <%= @highest %>
 <h1>mad, bad or a cool lad</h1>
 <%= form_for @review do |f| %>
     <%= f.text_area :description %>
-    <% f.hidden_field :player_id, :value => @summoner.id %>
+    <%= f.hidden_field :player_id, :value => @summoner.id %>
     <%= f.button :submit %>
 <% end %>
 
