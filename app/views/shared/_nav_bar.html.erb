@@ -1,0 +1,34 @@
+<div class="span2">
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <li>
+        <div class="accordion" id="accordian2">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <% if request.env["PATH_INFO"].include?("lookup") %>
+                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn btn-danger" href="/lookup">
+              <% else %>
+                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn" href="/lookup">
+              <% end %>
+                  <span> Summoner Lookup</span>
+              </a>
+            </div>
+
+          </div>
+          <div class="accordion-group">
+            <div class="accordion-heading">
+            <% if request.env["PATH_INFO"].include?("results") %>
+                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn btn-danger" href="#">
+            <% else %>
+                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn" href="#">
+            <% end %>
+                <span> Results</span>
+              </a>
+            </div>
+
+        </div>
+
+      </li>
+    </ul>
+  </div><!--/.well -->
+</div><!--/span-->

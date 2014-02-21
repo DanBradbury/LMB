@@ -7,8 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= render "shared/top_bar" %>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <%= render "shared/nav_bar" %>
+    <div class="span10">
+        <%= yield %>
+    </div>
+  </div>
 
-<%= yield %>
+</div>
+</div><!--/row-->
+<hr>
+
+</div><!--/.fluid-container-->
+
 
 </body>
 </html>
