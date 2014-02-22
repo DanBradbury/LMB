@@ -1,0 +1,5 @@
+ENV["HOST"] = "leaguedata.c0igzsccroji.us-west-1.rds.amazonaws.com"
+ENV["PASS"] = "d6ADBN%Q"
+ENV["USER"] = "dan"
+ENV["NEW_CHAMP"] = "Yasuo"
+ENV["NEW_ITEM"] = "Sweeping Lens"

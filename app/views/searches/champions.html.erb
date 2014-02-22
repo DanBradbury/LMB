@@ -1,3 +1,4 @@
 <% @champions.each do |f| %>
-    <%= f.name %>
+    <% name = @l.get_champion_image(f.name) %>
+    <%= image_tag(name) %>
 <% end %>

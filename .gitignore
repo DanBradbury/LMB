@@ -1,2 +1,4 @@
 .idea/*
-/log/*
+*.log
+tmp
+/config/initializers/app_env_vars.rb

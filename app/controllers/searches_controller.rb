@@ -10,6 +10,7 @@ class SearchesController < ApplicationController
       return
     end
     init_client
+    @l = League.new
     @summoner = @client.summoner_by_name(params[:name])
     @recent_games = @client.recent_games(@summoner.id)
     leagues = @client.leagues(@summoner.id)
@@ -30,6 +31,7 @@ class SearchesController < ApplicationController
   def champions
     init_client
     @champions = @client.champions
+    @l = League.new
     render 'searches/champions'
   end
 
