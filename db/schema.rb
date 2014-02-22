@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20140219084910) do
   create_table "reviews", force: true do |t|
     t.text    "description"
     t.integer "player_id"
+    t.integer "ranking"
   end
 
   create_table "searches", force: true do |t|

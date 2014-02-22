@@ -4,7 +4,6 @@ class PagesController < ApplicationController
   end
 
   def lookup
-    @new_search = Search.new
     render 'pages/lookup'
   end
 end

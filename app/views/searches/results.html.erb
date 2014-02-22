@@ -10,9 +10,9 @@
         <div class="accordion-inner" style="background-color: #ffffff;">
 
           <div class="row-fluid">
-            <div class="span6">
-            </div>
-            <div class="span6">
+            <div class="span12">
+              Summoner Name: <%= @summoner.name %> | Current League: <%= @highest %>
+              <%= render "recent_games" %>
             </div>
           </div>
 
@@ -22,8 +22,6 @@
 
   </div>
 </div>
-Summoner Name: <%= @summoner.name %> | Current League: <%= @highest %>
-<%= render "recent_games" %>
 <h1>mad, bad or a cool lad</h1>
 <%= form_for @review do |f| %>
     <%= f.text_area :description %>

@@ -18,6 +18,7 @@ end
 
 group :test do
   gem "minitest-rails"
+  gem 'simplecov', :require => false
 end
 
 # Use SCSS for stylesheets
