@@ -6,7 +6,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="/lookup">LMB</a>
+        <% if current_page?(root_path) %>
+      <a class="brand" style="color:#5BB75B;" href="/">LMB</a>
+        <% else %>
+      <a class="brand" href="/">LMB</a>
+    <% end %>
 
       <div class="nav-collapse">
         <ul class="nav">

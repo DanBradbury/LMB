@@ -2,23 +2,10 @@
   <div class="well sidebar-nav">
     <ul class="nav nav-list">
       <li>
-        <div class="accordion" id="accordian2">
-          <div class="accordion-group">
-            <div class="accordion-heading">
-              <% if request.env["PATH_INFO"].include?("lookup") %>
-                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn btn-danger" href="/lookup">
-              <% else %>
-                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn" href="/lookup">
-              <% end %>
-                  <span> Summoner Lookup</span>
-              </a>
-            </div>
-
-          </div>
           <div class="accordion-group">
             <div class="accordion-heading">
             <% if request.env["PATH_INFO"].include?("results") %>
-                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn btn-danger" href="#">
+                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn btn-success" href="#">
             <% else %>
                 <a style="text-decoration: none;text-align: left" class="accordion-toggle btn" href="#">
             <% end %>
@@ -27,6 +14,19 @@
             </div>
 
         </div>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <% if request.env["PATH_INFO"].include?("champions") %>
+                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn btn-success" href="/champions">
+            <% else %>
+                <a style="text-decoration: none;text-align: left" class="accordion-toggle btn" href="/champions">
+            <% end %>
+            <span> Champions</span>
+            </a>
+          </div>
+
+        </div>
+
 
       </li>
     </ul>

@@ -1,9 +1,9 @@
 class PagesController < ApplicationController
   def index
-    render :text => 'OK'
+    render 'index'
   end
 
   def lookup
-    render 'pages/lookup'
+    render 'lookup'
   end
 end
