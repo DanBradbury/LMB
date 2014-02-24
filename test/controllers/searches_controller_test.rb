@@ -11,6 +11,11 @@ class SearchesControllerTest < ActionController::TestCase
     assert_template :not_found
   end
 
+  test "invalid name search results not found" do
+    get(:results, {:name =>'isxipool'})
+    assert_template :not_found
+  end
+
   test "create new search" do
     post :create, search: {name: 'isixpool'}
     assert_redirected_to(controller: "searches", action: :results, name: 'isixpool')

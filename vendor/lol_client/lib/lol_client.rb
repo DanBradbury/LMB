@@ -6,6 +6,7 @@ require 'cgi'
 require 'json'
 require 'rest-client'
 require 'set'
+require 'httparty'
 
 class LolClient
   REGIONS = [:br, :eune, :euw, :kr, :lan, :las, :na, :oce, :ru, :tr].to_set.freeze
@@ -155,6 +156,19 @@ class LolClient
 
     summoner_names(summoner_id)[summoner_id]
   end
+
+  def check_item_api(id)
+    url = "https://prod.api.pvp.net/api/lol/static-data/#{region}/v1/item/#{id}"
+    params = {:itemData => 'all'}
+    query = params.merge(api_key: api_key)
+    query = query.map { |k,v| "#{k}=#{CGI.escape(v.to_s)}" }.join('&')
+    query = nil if query.empty?
+
+    u = [url, query].compact.join('?')
+    r = HTTParty.get(u)
+    r.parsed_response
+  end
+
 
   private
 

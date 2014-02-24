@@ -1,6 +1,6 @@
 require 'lol_client/models/champion'
 require 'lol_client/models/game'
-#require 'lol_client/models/item'
+require 'lol_client/models/item'
 require 'lol_client/models/league'
 require 'lol_client/models/league_entry'
 require 'lol_client/models/league_mini_series'

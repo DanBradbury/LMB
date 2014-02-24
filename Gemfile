@@ -9,6 +9,8 @@ gem 'mysql2'
 gem 'multi_json', '1.8.4'
 gem 'lol_client', :path => './vendor/lol_client'
 gem 'rails_serve_static_assets'
+gem 'httparty'
+
 # Use sqlite3 as the database for Active Record in Development and testing
 group :development do
   gem 'sqlite3'

@@ -1,17 +1,20 @@
 class SearchesController < ApplicationController
+  rescue_from Exception, :with => :handle_not_found
+
+  def handle_not_found
+    render 'searches/not_found'
+    return
+  end
+
   def create
     @s = Search.new(:name => params[:search][:name])
     redirect_to results_path(:name => @s.name)
   end
 
   def results
-    if params[:name] == ''
-      render 'searches/not_found'
-      return
-    end
     init_client
     @l = League.new
-    @summoner = @client.summoner_by_name(params[:name])
+    @summoner = @client.summoner_by_name(params[:name]) rescue Exception
     @recent_games = @client.recent_games(@summoner.id)
     leagues = @client.leagues(@summoner.id)
     divisions = {"BRONZE"=>0, "SILVER"=>1, "GOLD"=>2, "PLATINUM"=>3, "DIAMOND"=>4, "CHALLENGER"=>5}
@@ -24,7 +27,7 @@ class SearchesController < ApplicationController
     @highest = divisions.invert[highest]
     @review = Review.new
 
-    logger.info "recent games: #{@recent_games.inspect}"
+    #logger.info "recent games: #{@recent_games.inspect}"
     render 'searches/results'
   end
 

@@ -1,12 +1,28 @@
 <table class="table">
-  <% @recent_games.each do |g| %>
-      <% if g.raw_stats.win %>
-          <tr class="success">
+  <% @recent_games.each do |f| %>
+    <tr>
+      <td><%= Time.at(f.created_at / 1000).strftime("%F") %></td>
+      <td>
+      <%= image_tag(@l.get_champion_image(@l.get_champ_hash[f.champion_id])) %>
+      <strong class="text-success"><%= f.raw_stats.champions_killed %> Kills</strong>
+      <strong class="text-error"><%= f.raw_stats.num_deaths %> Deaths</strong>
+      <strong class="text-warning"><%= f.raw_stats.assists %> Assists</strong>
+      <br>
+      <% if f.raw_stats.win %>
+          <span class="label label-success">Win</span>
       <% else %>
-          <tr class="danger">
+          <span class="label label-important">Loss</span>
       <% end %>
-      <td><%= Time.at(g.created_at / 1000).strftime("%F") %></td>
-      <td><%= g.mode %>, <%= g.sub_type %></td>
-      </tr>
+      <%= image_tag(@client.check_item_api(f.raw_stats.item0)["image"]["full"]) if f.raw_stats.item0 %>
+      <%= image_tag(@client.check_item_api(f.raw_stats.item1)["image"]["full"]) if f.raw_stats.item1 %>
+      <%= image_tag(@client.check_item_api(f.raw_stats.item2)["image"]["full"]) if f.raw_stats.item2 %>
+      <%= image_tag(@client.check_item_api(f.raw_stats.item3)["image"]["full"]) if f.raw_stats.item3 %>
+      <%= image_tag(@client.check_item_api(f.raw_stats.item4)["image"]["full"]) if f.raw_stats.item4 %>
+      <%= image_tag(@client.check_item_api(f.raw_stats.item5)["image"]["full"]) if f.raw_stats.item5 %>
+      </td>
+      <td><%= f.mode %>, <%= f.sub_type %></td>
+
+    </tr>
   <% end %>
 </table>
+
